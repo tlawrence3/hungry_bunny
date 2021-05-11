@@ -97,5 +97,5 @@ def main(garden):
     print(num_carrots_consumed) #print num carrots consumed
 
 if __name__ == "__main__": #call main function with garden matrix
-    garden = np.array([[5,7,8,6,3], [0,0,7,0,4], [4,6,3,4,9], [3,1,0,5,8]])
+    garden = np.array([[5,7,8,6,3], [0,0,7,0,4], [4,6,3,4,9], [3,1,0,5,8]]) #input garden
     main(garden)
